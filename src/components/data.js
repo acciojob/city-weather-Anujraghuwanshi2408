@@ -10,11 +10,10 @@ import React ,{useState} from 'react'
                     <h1>{data.name}</h1>
                     <p>{data.main.temp}</p>
                     <p>{data.weather[0].main}</p>
-                    <div>
-                        <img src={data.icon} />
-                    </div>
+                    
          </div>
-     }
+     }      
+    
     </div>
   )
 }
