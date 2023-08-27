@@ -14,6 +14,7 @@ import 'regenerator-runtime/runtime';
     //   console.log(response)
       let data = await response.json();
       setData(data)
+      setCity("")
       console.log(data)
   }
   return (
