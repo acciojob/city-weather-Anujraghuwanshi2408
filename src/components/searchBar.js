@@ -17,8 +17,8 @@ import 'regenerator-runtime/runtime';
       console.log(data)
   }
   return (
-    <div className='search'>
-        <input type='text' value={city} onChange={(e)=>setCity(e.target.value)} placeholder='Enter a city' />
+    <div >
+        <input className='search' type='text' value={city} onChange={(e)=>setCity(e.target.value)} placeholder='Enter a city' />
        <button onClick={fetchData}>submit</button>
     </div>
   )
