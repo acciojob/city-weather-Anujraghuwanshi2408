@@ -4,9 +4,9 @@ import React ,{useState} from 'react'
  console.log(data)
 
   return (
-    <div  className='weather'>
+    <div >
        { 
-       (data.cod == "200") && <div>
+       (data.cod == "200") && <div  className='weather'>
                     <h1>{data.name}</h1>
                     <p>{data.main.temp}</p>
                     <p>{data.weather[0].main}</p>
