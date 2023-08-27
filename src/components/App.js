@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import './../styles/App.css';
+import "../styles/App.css"
 import Data from "./data";
 import SearchBar from "./searchBar";
 const App = () => {
